@@ -1,0 +1,33 @@
+:root{
+    --colorletratitulo:#19325B;
+    --colorbarra: rgb(0,113,102);
+    --colorbtns:#19325B;
+}
+
+.titulo{
+    color: var(--colorletratitulo);
+    font-size: 28px;
+    line-height: 3;
+    font-weight: 700;
+}
+.barracolor{
+    background-color: var(--colorbarra);
+    color: white;
+}
+
+body{
+font-family: "Roboto", "Odoo Unicode Support Noto", sans-serif;
+}
+.btn_verde{
+    background-color: var(--colorbtns);
+    color: white;
+    width: 120px;
+}
+caption{
+    color: var(--colorletratitulo);
+    font-size: 22px;
+    font-weight: 600;
+}
+h5{
+    color: rgb(25, 119, 4);
+}
