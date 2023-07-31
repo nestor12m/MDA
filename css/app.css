@@ -1,9 +1,18 @@
+
+
+
+
 :root{
     --colorletratitulo:#19325B;
     --colorbarra: rgb(0,113,102);
     --colorbtns:#19325B;
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .titulo{
     color: var(--colorletratitulo);
     font-size: 28px;
@@ -21,7 +30,7 @@ font-family: "Roboto", "Odoo Unicode Support Noto", sans-serif;
 .btn_verde{
     background-color: var(--colorbtns);
     color: white;
-    width: 120px;
+  
 }
 caption{
     color: var(--colorletratitulo);
@@ -30,4 +39,12 @@ caption{
 }
 h5{
     color: rgb(25, 119, 4);
+}
+.span_conultaticket{
+    font-weight: 700;
+}
+.categoria_caso{
+    background-color: orange;
+    font-size: 20px;
+    border-radius: 10%;
 }

@@ -15,16 +15,16 @@
                                           INICIO
     --------------------------------------------------------------------------------------------- -->
 
-    <div class="row">
-        <div class="col-4 bg-black" height="14px">s</div>
-        <div class="col-4 bg-black" height="14px"></div>
-        <div class="col-4 bg-black" height="14px"></div>
+    <div class="row mx-1">
+        <div class="col-4 bg-black" height="14px">2</div>
+        <div class="col-4 bg-black" height="14px">2</div>
+        <div class="col-4 bg-black" height="14px">2</div>
 
     </div>
     <!-----------------------------------------------------------------------------------------
                                              ESCUDO
         --------------------------------------------------------------------------------------------- -->
-    <div class="row text-center">
+    <div class="row mx-1 text-center ">
         <div class="col-sm-12 col-md-4 d-none d-md-block d-lg-block"><img src="img/CodeTutos.png" alt="" width="250px"
                 height="80px"></div>
         <div class="col-sm-12 col-md-4 titulo">Control de Casos MDA</div>
@@ -67,9 +67,83 @@
         --------------------------------------------------------------------------------------------- -->
 
     <main class="d-flex flex-column justify-content-center container mb-5">
+        <!-----------------------------------------------------------------------------------------
+                                              Modulo de busqueda general
+        --------------------------------------------------------------------------------------------- -->
+        <h3 class="text-center mt-3">Consulta general de casos ! Favor ingrese el numero de caso</h3>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
 
 
-        <h3 class="text-center mt-5">Modulo de consulta de casos</h3>
+
+
+        <main class="d-flex justify-content-center flex-column  m-auto">
+            <h3 class="my-3 text-center">Consulta de ticket <span class="span_conultaticket">INC 32456</span>
+                <span class="categoria_caso bg- p-1 ">Garantias</span>
+            </h3>
+            <div class="container">
+                <form action="" class="formulario  row border border-dark p-3 mb-3 ">
+
+
+
+                    <div class="col-12 col-md-6">
+                        <label for="Solicitante" class="form-label fw-bold text-uppercase">Solicitante</label>
+                        <P class="text-uppercase">Juan Dvid Martinez Perez</P>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="Solicitante" class="form-label fw-bold text-uppercase">Cedula</label>
+                        <P class="text-uppercase">456678908</P>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label for="Solicitante" class="form-label fw-bold text-uppercase">fecha de creacion</label>
+                        <P class="text-uppercase">16 de mayo 2023</P>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label for="Solicitante" class="form-label fw-bold text-uppercase">fecha de cierre</label>
+                        <P class="text-uppercase">17 de mayo 2023</P>
+                    </div>
+
+
+
+                    <div class="col-12 col-md-6">
+                        <label for="Solicitante" class="form-label fw-bold text-uppercase">Categoria</label>
+                        <P class="text-uppercase">Garantias</P>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <label for="Solicitante" class="form-label fw-bold text-uppercase">Onsite</label>
+                        <P class="text-uppercase">od_inc_32456_sogamoso.pdf</P>
+                    </div>
+
+                    <div class="col-12 col-md-12">
+                        <label for="Solicitante" class="form-label fw-bold text-uppercase">detalle</label>
+                        <P class="text-uppercase">Se realizo backup de la informacion e instalcion de windows 10 y
+                            posteriormente se realizo instalcion y confiuracion de aplicaiones . quipo queda operativo
+                        </P>
+                    </div>
+
+
+                    <!-- <input type="submit" value="Agregar" class="btn btn_verde mt-3 col-2" /> -->
+
+
+
+
+                </form>
+                <a href="garantias.html" class="btn btn_verde mb-5">Regresar</a>
+            </div>
+        </main>
+        <!-----------------------------------------------------------------------------------------
+                                              Modulo de busqueda general
+        --------------------------------------------------------------------------------------------- -->
+        <h3 class="text-center mt-5">Modulos de consulta de independiente</h3>
 
         <div class="row mt-3">
             <div class="col-sm-6 mt-3">
@@ -88,7 +162,7 @@
                         <h5 class="card-title">Casos escalados a Repuestos</h5>
                         <p class="card-text">Aqui podras consultar el estado de los ticket de la categoria repuestos.
                         </p>
-                        <a href="#" class="btn btn-primary">Detalle</a>
+                        <a href="repuestos.html" class="btn btn-primary">Detalle</a>
                     </div>
                 </div>
             </div>
@@ -99,7 +173,7 @@
                         <h5 class="card-title">Casos escalados a Sinisetros</h5>
                         <p class="card-text">Aqui podras consultar el estado de los ticket de la categoria siniestro.
                         </p>
-                        <a href="#" class="btn btn-primary">Detalle</a>
+                        <a href="siniestros.html" class="btn btn-primary">Detalle</a>
                     </div>
                 </div>
             </div>
@@ -110,7 +184,7 @@
                         <h5 class="card-title">Casos Cerrados</h5>
                         <p class="card-text">Aqui podras consultar los casos ya cerrados.
                         </p>
-                        <a href="#" class="btn btn-primary">Detalle</a>
+                        <a href="cerrados.html" class="btn btn-primary">Detalle</a>
                     </div>
                 </div>
             </div>
