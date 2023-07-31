@@ -32,6 +32,11 @@ font-family: "Roboto", "Odoo Unicode Support Noto", sans-serif;
     color: white;
   
 }
+.btn_verdes{
+    background-color: var(--colorbtns);
+    color: white;
+  
+}
 caption{
     color: var(--colorletratitulo);
     font-size: 22px;
